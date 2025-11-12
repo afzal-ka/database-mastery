@@ -137,3 +137,5 @@ Think of a table as a spreadsheet:
 - All DDL operations are auto-committed in Oracle.
 - Constraints ensure data integrity and consistency.
 - Use caution with DROP and TRUNCATE since they are irreversible.
+
+---
