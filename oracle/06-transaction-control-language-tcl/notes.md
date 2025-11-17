@@ -1,8 +1,10 @@
-# 05. Transaction Control Language (TCL)
+# 06. Transaction Control Language (TCL)
 
 ##  Overview
-**Transaction Control Language (TCL)** manages changes made by DML operations (INSERT, UPDATE, DELETE).  
-TCL ensures data consistency, supports rollback, and allows logical grouping of SQL operations.
+**Transaction Control Language (TCL)** statements manage changes made by DML statements (`INSERT`, `UPDATE`, `DELETE`, `MERGE`) and control the logical units of work inside the database.
+
+They ensure data integrity, consistency, and safe rollback in case of failure.
+TCL commands apply only after DML, not after DDL..
 
 TCL applies only to:
 - INSERT
@@ -12,6 +14,21 @@ TCL applies only to:
 
 It **does not** affect DDL commands, because DDL commits automatically in Oracle.
 
+## 2. Why is TCL important?
+
+TCL is essential for:
+
+- Ensuring multiple related operations succeed together (atomicity).
+- Undoing accidental or incorrect DML changes.
+- Saving intermediate states.
+- Maintaining consistency in multi-user environments.
+
+TCL enforces ACID properties of transactions:
+
+- Atomicity
+- Consistency
+- Isolation
+- Durability
 ---
 
 ##  Key TCL Commands

@@ -1,5 +1,5 @@
 ------------------------------------------------------------
--- Topic 05: Transaction Control Language (TCL)
+-- Topic 06: Transaction Control Language (TCL)
 -- Examples for COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION
 ------------------------------------------------------------
 
