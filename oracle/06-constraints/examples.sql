@@ -1,5 +1,5 @@
 ------------------------------------------------------------
--- Topic 05: Constraints – Examples
+-- Topic 06: Constraints – Examples
 -- This script demonstrates all major types of constraints.
 ------------------------------------------------------------
 
