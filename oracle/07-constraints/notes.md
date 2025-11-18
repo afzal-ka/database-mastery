@@ -1,4 +1,4 @@
-# 06. Constraints
+# 07. Constraints
 
 ## 1. What Are Constraints?
 
