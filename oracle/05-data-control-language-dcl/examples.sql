@@ -1,6 +1,6 @@
 
 ------------------------------------------------------------
--- Topic 04: Data Control Language (DCL)
+-- Topic 05: Data Control Language (DCL)
 -- Examples demonstrating GRANT and REVOKE
 ------------------------------------------------------------
 

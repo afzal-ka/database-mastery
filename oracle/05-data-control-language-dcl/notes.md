@@ -1,4 +1,4 @@
-# 04. Data Control Language (DCL)
+# 05. Data Control Language (DCL)
 
 ##  Overview
 **DCL (Data Control Language)** consists of SQL commands used to control access and permissions in the database.  
